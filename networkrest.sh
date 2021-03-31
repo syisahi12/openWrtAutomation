@@ -9,7 +9,7 @@ do
 		logger -p daemon.info -t "network[EXECUTED]" "Reconnecting!"
 		echo "[!] Router Disconnect"
 		echo "[!] Connecting..."
-		/etc/init.d/network restart
+		#/etc/init.d/network restart
 		ifup lan
 		sleep 10
 	fi
